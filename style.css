@@ -38,7 +38,7 @@ img, picture, video, canvas, svg {
     display: flex;
     margin: auto;
     padding: 10px;
-    background-color: blue;
+    background-color: azure;
     border-radius: 10px;
     flex-direction: column;
     width: 500px;
@@ -47,4 +47,12 @@ img, picture, video, canvas, svg {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+.input_form{
+    background-color: aqua;
+    color: black;
+}
+.button_form{
+    background-color: blueviolet;
+    color: pink;
 }

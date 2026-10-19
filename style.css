@@ -33,6 +33,7 @@ img, picture, video, canvas, svg {
     max-width: 100%;
     height: auto;
 }
+
 .login_card{
     display: flex;
     margin: auto;
@@ -41,4 +42,9 @@ img, picture, video, canvas, svg {
     border-radius: 10px;
     flex-direction: column;
     width: 500px;
+}
+.form_login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }

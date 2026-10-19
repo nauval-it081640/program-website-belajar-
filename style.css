@@ -1,0 +1,42 @@
+/* 1. Reset standar untuk semua elemen */
+*, *::before, *::after {
+    box-sizing: border-box; /* Membuat kalkulasi padding & border lebih konsisten */
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Reset untuk elemen teks dan list */
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Mengikuti warna teks bawaan induknya */
+}
+
+/* 3. Reset untuk elemen form dan button */
+button, input, textarea, select {
+    font: inherit; /* Mengikuti font bawaan induknya */
+    background: none;
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* 4. Reset untuk media agar responsif */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.login_card{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}

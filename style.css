@@ -34,6 +34,24 @@ img, picture, video, canvas, svg {
     height: auto;
 }
 
+.header{
+    display: flex;
+    width: 100%;
+    background-color: violet;
+    justify-content: center;
+    align-items: center;
+}
+.logo_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.logo_header img{
+    width: 50px;
+    height: auto;
+}
+
 .login_card{
     display: flex;
     margin: auto;

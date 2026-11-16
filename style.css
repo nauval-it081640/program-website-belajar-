@@ -10,10 +10,9 @@
     width: 100%;
     background-color: violet;
     padding: 10px;
-    justify-content: center;
     align-items: center;
     border-bottom: 2px solid black;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .logo_header{
     display: flex;
@@ -33,16 +32,63 @@
 .login_card{
     display: flex;
     margin: auto;
-    padding: 10px;
-    background-color: azure;
+    padding: 100px 0px;
+    background-color: purple;
     border-radius: 10px;
     flex-direction: column;
     width: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+}
+.login_card svg{
+    width: 100px;
+    height: auto;
+}
+.button_login_signup{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.button_login_signup button{
+    width: 100px;
+    height: 30px;
+}
+.button_login_signup button:hover{
+    background-color: blue;
 }
 .form_login{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
+    gap: 5px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+}
+.form_login svg{
+    width: 20px;
+    height: auto;
+}
+.form_login svg:hover{
+    color: blue;
+}
+.input_form_container{
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+.input_form_container input{
+    border: 1px solid white;
 }
 .input_form{
     background-color: aqua;
@@ -51,4 +97,7 @@
 .button_form{
     background-color: blueviolet;
     color: pink;
+}
+.button_form:hover{
+    background-color: blue;
 }
